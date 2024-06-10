@@ -3,7 +3,7 @@
         {
             "Name": "i0",
             "Description": "TMA8-3C",
-            "Path": "tma8-minerva.us-ord-1.linodeobjects.com/images/out",
+            "Path": "https://tma8-minerva.us-ord-1.linodeobjects.com/images/out",
             "Width": 8449,
             "Height": 7638,
             "MaxLevel": 4
