@@ -9,22 +9,12 @@
             "MaxLevel": 4
         }
     ],
-    "Images": [
-        {
-            "Name": "i1",
-            "Description": "TMA8-3C",
-            "Path": "images/out",
-            "Width": 8449,
-            "Height": 7638,
-            "MaxLevel": 4
-        }
-    ],
     "Header": "One of 16 bone marrow biopsy TMA cores from a CD34+ AML patient in \"Spatial Imaging Modalities Unveil Tertiary Lymphoid-like Aggregates in the AML Bone Marrow Environment\" (2024).",
     "Rotation": 0,
     "Layout": {
         "Grid": [
             [
-                "i0","i1"
+                "i0"
             ]
         ]
     },
