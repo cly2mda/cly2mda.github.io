@@ -3,7 +3,7 @@
         {
             "Name": "i0",
             "Description": "TMA8-3C",
-            "Path": "s3://tma8-minerva/images/out",
+            "Path": "https://s3.amazonaws.com/www.cycif.org/lin-wang-coy-2021/reg_96_97",
             "Width": 8449,
             "Height": 7638,
             "MaxLevel": 4
