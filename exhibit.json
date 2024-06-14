@@ -3,13 +3,13 @@
         {
             "Name": "i0",
             "Description": "TMA8-3C",
-            "Path": "https://tma8-minerva.us-ord-1.linodeobjects.com/images/out",
+            "Path": "tma8-minerva.us-ord-1.linodeobjects.com/TMA8-3C/images/TMA8-3C",
             "Width": 8449,
             "Height": 7638,
             "MaxLevel": 4
         }
     ],
-    "Header": "One of 16 bone marrow biopsy TMA cores from a CD34+ AML patient in \"Spatial Imaging Modalities Unveil Tertiary Lymphoid-like Aggregates in the AML Bone Marrow Environment\" (2024).",
+    "Header": "TMA core from \"Multimodal Spatial Proteomic Profiling in Acute Myeloid Leukemia\"\n",
     "Rotation": 0,
     "Layout": {
         "Grid": [
@@ -25,16 +25,16 @@
             "Waypoints": [
                 {
                     "Name": "TLS-like Aggregate",
-                    "Description": "This patient features a lymphocyte aggregate with a defined core of CD20+ B cells and surrounding CD4+ T cells. CD34+ cells cluster near by, analogous to peritumoral TLS in solid cancers. Without a clear germinal center and high endothelial venules, it would likely be classified as an immature TLS.",
+                    "Description": "",
                     "Arrows": [],
                     "Overlays": [],
                     "Group": "TLS-like Aggregate",
                     "Masks": [],
                     "ActiveMasks": [],
-                    "Zoom": 1.8127255679999998,
+                    "Zoom": 2,
                     "Pan": [
-                        0.3294133483171743,
-                        0.4256239620679012
+                        0.28192837791332553,
+                        0.40353090576039446
                     ]
                 }
             ]
@@ -53,18 +53,13 @@
         },
         {
             "Rendered": false,
-            "Name": "CD4",
-            "Path": "CD4_11__CD4"
-        },
-        {
-            "Rendered": false,
             "Name": "CD20",
             "Path": "CD20_12__CD20"
         },
         {
             "Rendered": false,
-            "Name": "CD45",
-            "Path": "CD45_20__CD45"
+            "Name": "CD4",
+            "Path": "CD4_11__CD4"
         },
         {
             "Rendered": false,
@@ -75,95 +70,154 @@
             "Rendered": false,
             "Name": "CD56",
             "Path": "CD56_25__CD56"
-        }
-    ],
-    "Masks": [
+        },
         {
-            "Path": "all-cells",
-            "Name": "all cells",
-            "Colors": [
-                "ffffff"
-            ],
-            "Channels": [
-                "all cells"
-            ]
+            "Rendered": false,
+            "Name": "CD163",
+            "Path": "CD163_27__CD163"
+        },
+        {
+            "Rendered": false,
+            "Name": "CD68",
+            "Path": "CD68_2__CD68"
+        },
+        {
+            "Rendered": false,
+            "Name": "CD14",
+            "Path": "CD14_17__CD14"
+        },
+        {
+            "Rendered": false,
+            "Name": "CD45",
+            "Path": "CD45_20__CD45"
+        },
+        {
+            "Rendered": false,
+            "Name": "FOXP3",
+            "Path": "FOXP3_28__FOXP3"
         }
     ],
+    "Masks": [],
     "Groups": [
-        {
-            "Name": "TLS-like Aggregate",
-            "Colors": [
-                "0000ff",
-                "00ffff",
-                "00ff00",
-                "ff0000"
-            ],
-            "Channels": [
-                "DAPI",
-                "CD34",
-                "CD4",
-                "CD20"
-            ],
-            "Descriptions": [
-                "",
-                "AML cells",
-                "T helper cells",
-                "B Cells"
-            ]
-        },
-        {
-            "Name": "TCells",
-            "Colors": [
-                "0000ff",
-                "00ff00",
-                "ffff00",
-                "ff0000"
-            ],
-            "Channels": [
-                "DAPI",
-                "CD4",
-                "CD45",
-                "CD8"
-            ],
-            "Descriptions": [
-                "",
-                "T helper cells",
-                "Leukocyte Common Antigen. On all hematopoietic cells.",
-                "CD8 T cells"
-            ]
-        },
         {
             "Name": "Overview",
             "Colors": [
                 "0000ff",
                 "00ffff",
-                "ffff00",
                 "ff0000",
-                "00ff00"
+                "00ff00",
+                "ffff00",
+                "ff00ff"
             ],
             "Channels": [
                 "DAPI",
                 "CD34",
-                "CD45",
-                "CD56",
-                "CD4"
+                "CD20",
+                "CD4",
+                "CD8",
+                "CD56"
             ],
             "Descriptions": [
                 "",
-                "AML cells",
-                "Leukocyte Common Antigen. On all hematopoietic cells.",
-                "Osteoblasts and NK cells",
-                "T helper cells"
+                "AML blasts",
+                "B cell",
+                "T helper",
+                "CD8 T cell",
+                "Osteoblast/NK"
+            ]
+        },
+        {
+            "Name": "TLS-like Aggregate",
+            "Colors": [
+                "0000ff",
+                "00ff00",
+                "ff0000",
+                "ffff00"
+            ],
+            "Channels": [
+                "DAPI",
+                "CD4",
+                "CD20",
+                "CD8"
+            ],
+            "Descriptions": [
+                "",
+                "T helper",
+                "B cell",
+                "CD8 T cell"
+            ]
+        },
+        {
+            "Name": "MonoMacLin",
+            "Colors": [
+                "0000ff",
+                "ff0000",
+                "00ff00",
+                "ff00ff"
+            ],
+            "Channels": [
+                "DAPI",
+                "CD163",
+                "CD68",
+                "CD14"
+            ],
+            "Descriptions": [
+                "",
+                "Macrophages",
+                "Macrophages",
+                "Monocytes"
+            ]
+        },
+        {
+            "Name": "CD56NK",
+            "Colors": [
+                "ff0000",
+                "0000ff",
+                "00ff00"
+            ],
+            "Channels": [
+                "CD45",
+                "DAPI",
+                "CD56"
+            ],
+            "Descriptions": [
+                "",
+                "",
+                "Osteoblast/NK"
+            ]
+        },
+        {
+            "Name": "T",
+            "Colors": [
+                "0000ff",
+                "00ff00",
+                "ff0000",
+                "ffff00",
+                "00ffff"
+            ],
+            "Channels": [
+                "DAPI",
+                "CD4",
+                "CD45",
+                "CD8",
+                "FOXP3"
+            ],
+            "Descriptions": [
+                "",
+                "T helper",
+                "",
+                "CD8 T cell",
+                ""
             ]
         }
     ],
     "PixelsPerMicron": 4.3478260869565215,
     "FirstGroup": "Overview",
     "FirstViewport": {
+        "Zoom": 0.5621093749999998,
         "Pan": [
-            0.4862680481573687,
-            0.5072310993788363
-        ],
-        "Zoom": 0.5621093749999998
+            0.5530898140874575,
+            0.5000000000000001
+        ]
     }
 }
