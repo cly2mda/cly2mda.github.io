@@ -5,11 +5,12 @@
 layout: default
 ---
 
-# TMA TABLE
+# Spatial Proteomics
+16 TMA cores created from the bone marrow of 7 AML patients were imaged using the Lunaphore COMET platform.
 
-| head1        | head two          | three |         |
-|:-------------|:------------------|:------|:--------|
-| [TMA8-3C](./prebuilt/TMA8-3C/) | good swedish fish | nice  | TMA7-3C |
+|              |                   |       |         |
+|:------------:|:-----------------:|:-----:|:-------:|
+|[ TMA8-3C <br> ![](./prebuilt/TMA8-3C/tma8-3c.jpg){: width="100" }](./prebuilt/TMA8-3C/)| [ TMA8-3C <br> ![](./prebuilt/TMA8-3C/tma8-3c.jpg){: width="100" }](./prebuilt/TMA8-3C/) | [ TMA8-3C <br> ![](./prebuilt/TMA8-3C/tma8-3c.jpg){: width="100" }](./prebuilt/TMA8-3C/)  | [ TMA8-3C <br> ![](./prebuilt/TMA8-3C/tma8-3c.jpg){: width="100" }](./prebuilt/TMA8-3C/) |
 | out of stock | good and plenty   | nice  | TMA8-3C |
 | ok           | good `oreos`      | hmm   | TMA8-2D |
 | ok           | good `zoute` drop | yumm  | TMA7-5E |
