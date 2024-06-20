@@ -12,6 +12,6 @@ layout: default
 |:------------:|:-----------------:|:-----:|:-------:|
 |[ TMA8-3C <br> ![](./prebuilt/TMA8-3C/tma8-3c.jpg){: width="100" }](./prebuilt/TMA8-3C/)| [ TMA8-3C <br> ![](./prebuilt/TMA8-3C/tma8-3c.jpg){: width="100" }](./prebuilt/TMA8-3C/) | [ TMA8-3C <br> ![](./prebuilt/TMA8-3C/tma8-3c.jpg){: width="100" }](./prebuilt/TMA8-3C/)  | [ TMA8-3C <br> ![](./prebuilt/TMA8-3C/tma8-3c.jpg){: width="100" }](./prebuilt/TMA8-3C/) |
 | out of stock | good and plenty   | nice  | TMA8-3C |
-| ok           | good `oreos`      | hmm   | TMA8-2D |
+|[ TMA8-2D <br> ![](./prebuilt/tma8-2d/tma8-2d.jpg){: width="100" }](./prebuilt/tma8-2d/)|[ TMA8-3C <br> ![](./prebuilt/TMA8-3C/tma8-3c.jpg){: width="100" }](./prebuilt/TMA8-3C/)|[ TMA8-4C <br> ![](./prebuilt/TMA8-4C/TMA8-4C.jpg){: width="100" }](./prebuilt/TMA8-4C/)| TMA8-5C |
 | ok           | good `zoute` drop | yumm  | TMA7-5E |
 
