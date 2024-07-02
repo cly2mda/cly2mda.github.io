@@ -1,0 +1,208 @@
+{
+    "Images": [
+        {
+            "Name": "i0",
+            "Description": "TMA7-1C",
+            "Path": "https://tma8-minerva.us-ord-1.linodeobjects.com/TMA7-1C/images/TMA7-1C",
+            "Width": 5325,
+            "Height": 5978,
+            "MaxLevel": 3
+        }
+    ],
+    "Header": "TMA core from \"Multimodal Spatial Proteomic Profiling in Acute Myeloid Leukemia\"",
+    "Rotation": 0,
+    "Layout": {
+        "Grid": [
+            [
+                "i0"
+            ]
+        ]
+    },
+    "Stories": [
+        {
+            "Name": "",
+            "Description": "",
+            "Waypoints": []
+        }
+    ],
+    "Channels": [
+        {
+            "Rendered": false,
+            "Name": "DAPI",
+            "Path": "DAPI_0__DAPI"
+        },
+        {
+            "Rendered": false,
+            "Name": "CD34",
+            "Path": "CD34_1__CD34"
+        },
+        {
+            "Rendered": false,
+            "Name": "CD20",
+            "Path": "CD20_12__CD20"
+        },
+        {
+            "Rendered": false,
+            "Name": "CD4",
+            "Path": "CD4_11__CD4"
+        },
+        {
+            "Rendered": false,
+            "Name": "CD8",
+            "Path": "CD8_13__CD8"
+        },
+        {
+            "Rendered": false,
+            "Name": "CD56",
+            "Path": "CD56_25__CD56"
+        },
+        {
+            "Rendered": false,
+            "Name": "CD163",
+            "Path": "CD163_27__CD163"
+        },
+        {
+            "Rendered": false,
+            "Name": "CD68",
+            "Path": "CD68_2__CD68"
+        },
+        {
+            "Rendered": false,
+            "Name": "CD14",
+            "Path": "CD14_17__CD14"
+        },
+        {
+            "Rendered": false,
+            "Name": "CD45",
+            "Path": "CD45_20__CD45"
+        },
+        {
+            "Rendered": false,
+            "Name": "FOXP3",
+            "Path": "FOXP3_28__FOXP3"
+        }
+    ],
+    "Masks": [],
+    "Groups": [
+        {
+            "Name": "Overview",
+            "Colors": [
+                "0000ff",
+                "00ffff",
+                "ff0000",
+                "00ff00",
+                "ffff00",
+                "ff00ff"
+            ],
+            "Channels": [
+                "DAPI",
+                "CD34",
+                "CD20",
+                "CD4",
+                "CD8",
+                "CD56"
+            ],
+            "Descriptions": [
+                "",
+                "AML blasts",
+                "B cell",
+                "T helper",
+                "CD8 T cell",
+                "Osteoblast/NK"
+            ]
+        },
+        {
+            "Name": "TLS-like Aggregate",
+            "Colors": [
+                "0000ff",
+                "00ff00",
+                "ff0000",
+                "ffff00"
+            ],
+            "Channels": [
+                "DAPI",
+                "CD4",
+                "CD20",
+                "CD8"
+            ],
+            "Descriptions": [
+                "",
+                "T helper",
+                "B cell",
+                "CD8 T cell"
+            ]
+        },
+        {
+            "Name": "MonoMacLin",
+            "Colors": [
+                "0000ff",
+                "ff0000",
+                "00ff00",
+                "ff00ff"
+            ],
+            "Channels": [
+                "DAPI",
+                "CD163",
+                "CD68",
+                "CD14"
+            ],
+            "Descriptions": [
+                "",
+                "Macrophages",
+                "Macrophages",
+                "Monocytes"
+            ]
+        },
+        {
+            "Name": "CD56NK",
+            "Colors": [
+                "ff0000",
+                "0000ff",
+                "00ff00"
+            ],
+            "Channels": [
+                "CD45",
+                "DAPI",
+                "CD56"
+            ],
+            "Descriptions": [
+                "",
+                "",
+                "Osteoblast/NK"
+            ]
+        },
+        {
+            "Name": "T",
+            "Colors": [
+                "0000ff",
+                "00ff00",
+                "ff0000",
+                "ffff00",
+                "00ffff"
+            ],
+            "Channels": [
+                "DAPI",
+                "CD4",
+                "CD45",
+                "CD8",
+                "FOXP3"
+            ],
+            "Descriptions": [
+                "",
+                "T helper",
+                "",
+                "CD8 T cell",
+                ""
+            ]
+        }
+    ],
+    "PixelsPerMicron": 4.3478260869565215,
+    "FirstGroup": "Overview",
+    "FirstViewport": {
+        "Zoom": 0.6496696226743176,
+        "Pan": [
+            0.44126455685517235,
+            0.43960154570597615
+        ]
+    }
+}
